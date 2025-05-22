@@ -20,6 +20,8 @@ def add_product():
 
 def list_products():
     print("\n--- Product List ---")
+    print("🔍 Category filter feature coming soon...")  # هذا السطر الجديد
+    
     if not products:
         print("No products found.")
     for pid, prod in products.items():
